@@ -9,7 +9,7 @@ import { isAuthenticated } from "../utils/auth";
 
 const routes = [
   { path: "/", name: "Landing", component: Landing },
-  { path: "/auth/login", name: "Login", component: Login },
+  { path: "/auth/Login", name: "Login", component: Login },
   { path: "/auth/signup", name: "Signup", component: Signup },
   {
     path: "/dashboard",
@@ -38,7 +38,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(import.meta.env.Base_url),
   routes,
 });
 

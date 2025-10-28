@@ -4,6 +4,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/Ticket-management-v-vue/",
   plugins: [tailwindcss(), vue()],
+  base: '/'
 });
