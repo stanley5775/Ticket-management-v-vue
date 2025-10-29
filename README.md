@@ -1,5 +1,35 @@
-# Vue 3 + Vite
+---
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+##  Vue Version — Ticket-management-v-vue/README.md
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+
+#  Ticket Management App (Vue Version) <a href="ticket-management-vue-v.netlify.app">live</a>
+
+This is the **Vue.js implementation** of the Ticket Management Web App — maintaining identical UI, logic, and user experience as the React and Twig versions.
+
+---
+
+## Features
+
+- Responsive layout with 1440px max width
+- Wave hero landing page with decorative circles
+- Authentication (Login & Signup) via **localStorage**
+- Protected Dashboard and Ticket Management routes
+- CRUD operations for tickets
+- Inline error messages and toast/snackbar notifications
+- Color-coded status badges:
+  -  `open`
+  -  `in_progress`
+  -  `closed`
+
+---
+
+## Tech Stack
+
+- **Vue 3**
+- **Vite**
+- **Tailwind CSS (CDN)**
+- **Vue Router**
+- **Pinia** (for state management)
+
+---
